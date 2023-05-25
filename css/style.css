@@ -1,0 +1,300 @@
+/* General styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* manu bar start */
+  
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .logo{
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
+  
+    .logo a{
+      text-decoration: none;
+      color: black;
+    }
+  
+    nav ul {
+      display: inline-block;
+      list-style-type: none;
+    }
+  
+    nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+  
+    nav ul li a {
+      text-decoration: none;
+      color: #555;
+    }
+  
+  /* manu bar end */
+  
+  /* login form start */
+  
+  .login-header{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-align: center;
+  }
+  .google-button {
+    width: 100%;
+    display: inline-flex;
+    flex-shrink: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+    text-align: center;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    line-height: 1em;
+    min-height: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    background-color: whitesmoke;
+    border-radius: 7px;
+  }
+  
+  .google-button:hover {
+    background-color: darkslategrey;
+    color:  whitesmoke;
+  }
+  
+  .form {
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .label {
+    display: flex;
+    user-select: none;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .form-start{
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-button {
+    width: 100%;
+    display: inline-flex;
+    flex-shrink: 0;
+    cursor: pointer;
+    user-select: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+    text-align: center;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    line-height: 1em;
+    min-height: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    background-color: rgb(37, 35, 35);
+    color: antiquewhite;
+    border-radius: 7px;
+  }
+  
+  .login-button:hover{
+    background-color: #555;
+    color: whitesmoke;
+  }
+  
+  .form-details {
+    flex-shrink: 1;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    line-height: 2;
+    line-height: 1.5rem;
+    border: 1px black solid;
+    border-radius: 7px;
+  }
+  
+  .signup-write {
+    text-decoration: none;
+    color: #947f7f;
+  }
+  
+  /* login form end */
+  /* signup form start */
+  .signup-header{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-align: center;
+  }
+  .signup-google-button {
+    width: 100%;
+    display: inline-flex;
+    flex-shrink: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+    text-align: center;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    line-height: 1em;
+    min-height: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    background-color: whitesmoke;
+    border-radius: 7px;
+  }
+  
+  .signup-google-button:hover {
+    background-color: darkslategrey;
+    color:  whitesmoke;
+  }
+  
+  .signup-form {
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .signup-label {
+    display: flex;
+    user-select: none;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .signup-form-start{
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-button {
+    width: 100%;
+    display: inline-flex;
+    flex-shrink: 0;
+    cursor: pointer;
+    user-select: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+    text-align: center;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    line-height: 1em;
+    min-height: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    background-color: rgb(37, 35, 35);
+    color: antiquewhite;
+    border-radius: 7px;
+  }
+  
+  .signup-button:hover{
+    background-color: #555;
+    color: whitesmoke;
+  }
+  
+  .signup-form-details {
+    flex-shrink: 1;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    line-height: 2;
+    line-height: 1.5rem;
+    border: 1px black solid;
+    border-radius: 7px;
+  }
+  
+  .login-write {
+    text-decoration: none;
+    color: #947f7f;
+    padding-left: 30px;
+  }
+  
+  
+  /* signup form end */
+  
+  
+  /*footer start*/
+  
+  .footer {
+    display: flex;
+    width: 100%;
+    grid-auto-flow: row;
+    place-items: start;
+    row-gap: 2.5rem;
+    column-gap: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  
+  .footer-col{
+    display: grid;
+    place-items: start;
+    gap: 0.5rem;
+  }
+  
+  .footer-title {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+  
+  .footer a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* footer end  */
